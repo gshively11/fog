@@ -144,7 +144,7 @@ module Fog
         alias_method :public_ip_address, :floating_ip_address
 
         def private_ip_addresses
-          ip_addresses - floating_ip_addresses
+          ip_addresses
         end
 
         def private_ip_address
